@@ -19,12 +19,23 @@ var google = {
                 setDirections: function() {
                 },
                 setPanel: function() {
+
                 }
-            }
+            };
         },
         DirectionsService: function() {
+            return {
+                route: function() {
+
+                }
+            };
         },
         Geocoder: function() {
+            return {
+                geocode: function() {
+
+                }
+            };
         },
         MapTypeId: {ROADMAP: true},
         places: {
