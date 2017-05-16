@@ -1,6 +1,11 @@
 # angular-google-maps-mock
-Karma Mock for Unit Testing with Angular Google Maps Services
+Karma Mock for Unit Testing with Angular Google Maps Services 
 forked from ScottieR/angular-google-maps-mock
+
+Add:
+  - DirectionsRenderer class with setMap, setDirections and setPanel function
+  - DirectionsService class
+  - GeoCoder class
 
 Add the following dependencies in your karma config file:
 ```
