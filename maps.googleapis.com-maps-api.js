@@ -12,6 +12,20 @@ var google = {
         Map: function(obj){
 
         },
+        DirectionsRenderer: function() {
+            return {
+                setMap: function(id) {
+                },
+                setDirections: function() {
+                },
+                setPanel: function() {
+                }
+            }
+        },
+        DirectionsService: function() {
+        },
+        Geocoder: function() {
+        },
         MapTypeId: {ROADMAP: true},
         places: {
         	AutocompleteService: function(){
