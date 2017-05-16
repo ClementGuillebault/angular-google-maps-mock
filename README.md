@@ -4,8 +4,8 @@ forked from ScottieR/angular-google-maps-mock
 
 Add:
   - DirectionsRenderer class with setMap, setDirections and setPanel function
-  - DirectionsService class
-  - GeoCoder class
+  - DirectionsService class with route method
+  - GeoCoder class with geocode method
 
 Add the following dependencies in your karma config file:
 ```
